@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .article img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .article p {
+    font-size: 1em;
+    color: #555;
+  }
+
+
+
+
+
+
+
+  <div class="contenedor">
+  <button><a href="Guitarras.html">Guitarras</a></button>
+  <button><a href="Baterias.html">Baterias</a></button>
+  <button><a href="Trompetas.html">Trompetas</a></button>
+  <button><a href="Mision, Vision y Valores.html">Mision, Vision y Valores</a></button>
+  <button><a href="video.html">Video</a></button>
+</div>

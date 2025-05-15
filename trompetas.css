@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #ff5e00;  
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+  .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  .article img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .article p {
+    font-size: 1em;
+    color: #555;
+  }
+
+
+   .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(90deg, rgb(255, 119, 0), #000000);
+  color: white;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+body {
+  padding-top: 70px;
+}
+
+#carrito-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    z-index: 1000;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#carrito-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
